@@ -32,10 +32,27 @@ Random Forest	96%
 
 
 
-#### 🚀 Run Locally
-pip install -r requirements.txt
+### Set up the Project Locally
 
+```bash
+# Clone the repository
+
+git clone https://github.com/laasika25/Deforestation_Detection.git
+cd Deforestation_Detection
+
+# Create virtual environment
+python -m venv env
+env\Scripts\activate          # On Windows
+# source env/bin/activate    # On Mac/Linux
+
+# Install dependencies
+pip install -r requirements.txt
+pip install streamlit pandas numpy scikit-learn matplotlib seaborn joblib folium imbalanced-learn
+
+# Launch the Streamlit interface
 streamlit run app.py
+```
+
 
 ## Streamlit Model:-
 <img width="569" height="599" alt="image" src="https://github.com/user-attachments/assets/59d9cae6-09db-4160-8ed7-06f54a2af656" />
